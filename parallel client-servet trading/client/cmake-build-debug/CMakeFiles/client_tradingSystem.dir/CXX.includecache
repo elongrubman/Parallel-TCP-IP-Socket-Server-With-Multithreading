@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/elon/CLionProjects/client-tradingSystem/CClientTrader.cpp
+CClientTrader.h
+/Users/elon/CLionProjects/client-tradingSystem/CClientTrader.h
+vector
+-
+sys/socket.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+fcntl.h
+-
+unistd.h
+-
+iostream
+-
+cstdlib
+-
+
+/Users/elon/CLionProjects/client-tradingSystem/CClientTrader.h
+SClientStructures.h
+/Users/elon/CLionProjects/client-tradingSystem/SClientStructures.h
+list
+-
+mutex
+-
+
+/Users/elon/CLionProjects/client-tradingSystem/SClientStructures.h
+ctime
+-
+string
+-
+thread
+-
+

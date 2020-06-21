@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/elon/CLionProjects/trading_system_tranning/CTradingSystem.cpp
+fstream
+-
+iostream
+-
+arpa/inet.h
+-
+zconf.h
+-
+vector
+-
+CTradingSystem.h
+/Users/elon/CLionProjects/trading_system_tranning/CTradingSystem.h
+
+/Users/elon/CLionProjects/trading_system_tranning/CTradingSystem.h
+STradingSystemStructures.h
+/Users/elon/CLionProjects/trading_system_tranning/STradingSystemStructures.h
+unordered_map
+-
+list
+-
+pthread.h
+-
+mutex
+-
+sys/socket.h
+-
+netinet/in.h
+-
+
+/Users/elon/CLionProjects/trading_system_tranning/STradingSystemStructures.h
+ctime
+-
+string
+-
+thread
+-
+

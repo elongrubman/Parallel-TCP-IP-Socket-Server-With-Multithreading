@@ -1,0 +1,3 @@
+/Users/elon/CLionProjects/trading_system_tranning/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/elon/CLionProjects/trading_system_tranning/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/elon/CLionProjects/trading_system_tranning/cmake-build-debug/CMakeFiles/trading_system_tranning.dir
