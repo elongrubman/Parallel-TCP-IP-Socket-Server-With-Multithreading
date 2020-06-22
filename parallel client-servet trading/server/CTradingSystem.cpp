@@ -173,8 +173,16 @@ void CTradingSystem::updateTradingHistory(SCleintRequest& clientRequest) {
 void CTradingSystem::printTradingHistory() {
 
     for (auto it = m_trade_history.begin(); it != m_trade_history.end(); ++it){
-        std::cout << it->date_time_of_the_saleing << " | "<< it->stock_name <<" | "<<it->sales_quantity <<" | "<<
-        it->sales_price <<" | " << std::endl;
+        std::cout << it->date_time_of_the_saleing << "| "<< it->stock_name <<" | "<<it->sales_quantity <<" | "<<
+        it->sales_price <<" | " << std::endl << std::endl;
+    }
+
+}
+
+void CTradingSystem::printStocksStatus() {
+
+    for (auto& it : m_stocks){
+        std::cout << it.second.stock_name << "-" << it.first << " | " << it.second.quantity << std::endl;
     }
 
 }

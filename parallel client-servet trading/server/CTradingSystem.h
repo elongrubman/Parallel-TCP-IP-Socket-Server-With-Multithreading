@@ -25,6 +25,8 @@ public:
 
     void printTradingHistory();
 
+    void printStocksStatus();
+
 private:
     void socketThread();
     void readTreadingData(const std::string& path_to_data);
